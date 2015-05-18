@@ -1,0 +1,17 @@
+Seed: 7526540627226808929
+color-7526540627226808929-0.png:
+  red: avg(y*y, extreme(avg(y, avg(x/2, cos(pi*sin(avg(x/2, cos(pi*x/2))))))))
+  green: cos(pi*avg(x*x, sin(pi*avg(x*x, avg(x/2, avg(x/2, avg(x*y, sin(extreme(sin(avg(x*y, sin(pi*avg(x*x, cos(avg(y*y, cos(y))))))))))))))))
+  blue: cos(pi*avg(x*x, sin(avg(y/2, avg(x*x, sin(cos(pi*avg(x/2, x*y))))))))
+
+Seed: 4145611284165398714
+color-4145611284165398714-0.png:
+  red: sin(sin(pi*cos(pi*cos(pi*avg(y, avg(x*x, avg(x/2, cos(pi*cos(sin(avg(y/2, avg(y*y, sin(pi*avg(x/2, cos(pi*avg(x/2, avg(x/2, cos(avg(y/2, avg(x, y))))))))))))))))))))
+  green: avg(x/2, cos(sin(sin(pi*avg(x*y, sin(pi*avg(x, cos(avg(x*y, avg(x*y, avg(y, avg(x*y, sin(pi*avg(y*y, cos(pi*avg(y/2, avg(x/2, avg(x*y, x*y))))))))))))))))))
+  blue: avg(y*y, avg(x/2, avg(x*x, avg(x*x, avg(x/2, avg(x*x, cos(avg(y, cos(x/2)))))))))
+
+Seed: 4211112063531573586
+color-4211112063531573586-0.png:
+  red: cos(avg((sin(x)), abs(avg((sin(x)), power((x/2), cos(pi*power((x/2), avg((cos(y)), avg(y*y, extreme((x)))))))))))
+  green: power((x*x), power((cos(y)), sin(pi*avg(x*y, avg((x*x), sin(avg((y/2), abs((x)))))))))
+  blue: avg((x/2), sin(pi*power((x), minimal(abs(cos(avg((sin(x)), sin(pi*power((y/2), invert(power((cos(y)), power((x/2), power((cos(y)), avg((y/2), avg((y/2), sin(sin(power(x*y, (x)))))))))))))))))))
