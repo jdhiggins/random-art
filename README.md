@@ -1,5 +1,6 @@
-Welcome to Random Art
-to run the program, open your terminal and run python3 create-art.py.
+Welcome to Random Art!!
+
+To run the program, open your terminal and run python3 create-art.py.
 
 If you'd like to run more than one gen at once, add -n and the number you'd like to make.  For example: python3 create-art.py -n 5 will make 5 random drawings at once.
 
@@ -7,7 +8,7 @@ The module at random_art.py is responsible for creating an object that holds a r
 when create_art.py runs create_expression().  The run_expression() function will
 evaluate the string held at the object's self.expression, using x and y.  This creates a slower generation of art as the eval function works its way through the very long random formulas.  But it makes cool art!
 
-My favorite 2 are:
+My favorite 3 are:
 
 Seed-2372483741499200068
 color-2372483741499200068-3.png:
