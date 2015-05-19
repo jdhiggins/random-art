@@ -1,3 +1,32 @@
+Welcome to Random Art
+to run the program, open your terminal and run python3 create-art.py.
+
+If you'd like to run more than one gen at once, add -n and the number you'd like to make.  For example: python3 create-art.py -n 5 will make 5 random drawings at once.
+
+The module at random_art.py is responsible for creating an object that holds a random formula created from a preexisting parts list.  This creation happens
+when create_art.py runs create_expression().  The run_expression() function will
+evaluate the string held at the object's self.expression, using x and y.  This creates a slower generation of art as the eval function works its way through the very long random formulas.  But it makes cool art!
+
+My favorite 2 are:
+
+Seed-2372483741499200068
+color-2372483741499200068-3.png:
+  red: greater((y/2), cos(cos(sin(neg(invert(greater((x*y), greater((x), sin(avg((y), neg(invert(extreme(cos(pi*avg((-1 * pi ), cos(sin(neg(greater((y/2), neg(greater((-1 * pi ), avg((x*y), (-1 * pi )))))))))))))))))))))))
+  green: sin(pi*cos(pi*power((x*y), avg((x*y), sin(pi*invert(cos(pi*avg((x*y), avg((y), power((x*y), power((y), invert(power((x), cos(invert((y))))))))))))))))
+  blue: neg(power((y*y), invert(extreme(extreme(power((-1 * pi ), avg((x*x), power((x), cos(greater((y/2), cos(pi*cos(pi*cos(greater((sin(x)), invert(power((cos(y)), extreme(invert(extreme(power((cos(y)), avg((x), (y))))))))))))))))))))))
+
+Seed: 646786650211422027
+color-646786650211422027-0.png:
+    red: cos(pi*sin(pi*invert(invert(extreme(sin(sin(pi*sin(invert(cos(pi*power((sin(x)), minimal(sin(pi*minimal(invert(cos(pi*sin(pi*(x/2))))))))))))))))))
+    green: avg((y), invert(minimal(cos(pi*power((sin(x)), sin(minimal(sin(pi*power((x*x), extreme(invert(cos(power(y*y, avg((x*x), cos(pi*power(x*y, avg((y), avg((x), power((sin(x)), (cos(y)))))))))))))))))))))
+    blue: cos(pi*sin(pi*cos(pi*power((y), invert(sin(pi*minimal(sin(sin(invert(sin(pi*avg((x*x), power((x*x), sin(pi*cos(cos(pi*sin(pi*invert(avg((x), sin(pi*(y/2)))))))))))))))))))))
+
+Seed: 3343935891560701134
+color-3343935891560701134-3.png:
+      red: cos(pi*cos(pi*cos(pi*invert(power(x*y, cos(pi*avg((x/2), extreme(power(y*y, cos(avg((y/2), power(y*y, invert(cos(sin(pi*avg((x), sin(pi*sin(pi*power((y/2), (sin(x)))))))))))))))))))))
+      green: sin(pi*invert(sin(extreme(cos(pi*invert(cos(invert(sin(sin(pi*cos(sin(pi*avg((x*x), extreme(extreme(power(y*y, power((sin(x)), extreme(sin((y/2))))))))))))))))))))
+      blue: sin(pi*cos(cos(power((cos(y)), cos(pi*invert(extreme(sin((y)))))))))
+
 # Random Art
 
 ## Description
@@ -110,3 +139,4 @@ Color is default.
 ## Credit
 
 Modified from [a "nifty assignment" from the annual SIGCSE meeting](http://nifty.stanford.edu/2009/stone-random-art/).
+This is the readme
